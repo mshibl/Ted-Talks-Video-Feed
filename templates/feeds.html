@@ -1,30 +1,16 @@
 <div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
-
-	<div class="row">
-	  <div class="col-sm-4">
-		  <img src="http://improvephotography.com/wp-content/uploads/2015/05/manarola-cinque-terre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
-	  </div>
-	  <div class="col-sm-4">
-	  	<img src="http://improvephotography.com/wp-content/uploads/2015/05/manarola-cinque-terre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
-	  </div>
-	  <div class="col-sm-4">
-	  	<img src="http://improvephotography.com/wp-content/uploads/2015/05/manarola-cinque-terre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
-	  </div>
-	</div>
-
 	<div class= "row">
-		<div class="col-sm-4">
-			<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-				<div class="flipper">
-					<div class="front">
-				  	<img src="http://improvephotography.com/wp-content/uploads/2015/05/manarola-cinque-terre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
-					</div>
-					<div class="back">
-						This is the video's metadata
-					</div>
-				</div>
+		<div ng-repeat="videoFeed in videoFeeds">
+			<div class="col-sm-4">
+			  	<div class="card-container">
+              <div class="card">
+                  <div class="front"> 
+                  	<img src="http://improvephotography.com/wp-content/uploads/2015/05/manarola-cinque-terre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                  </div> <!-- end front panel -->
+                  <div class="back">
+                  </div> <!-- end back panel -->
+              </div> <!-- end card -->
+          </div> <!-- end card-container -->
 			</div>
 		</div>
 	</div>
