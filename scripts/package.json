@@ -1,0 +1,20 @@
+{
+  "name": "ted_talks_feed",
+  "version": "1.0.0",
+  "description": "A podcast powered by FeedBurner",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tedtalks"
+  ],
+  "author": "mshibl",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-sanitize": "^1.4.8",
+    "angular-ui-bootstrap": "^0.14.3",
+    "colors": "^1.1.2"
+  }
+}
