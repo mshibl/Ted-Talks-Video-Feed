@@ -37,8 +37,13 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #FFF;
+    background-color: white;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.14);
+    border: 1px solid #fff;
+    border-bottom: 1.5px solid red;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
 }
 
 /* front pane, placed above back */
@@ -62,22 +67,16 @@
 	border-radius: 4px;
 }
 
-.front, .back{
-    font-family: 'Open Sans';
-    background-color: #F1F1F1;
-    border: 1px solid #fff;
-}
-
-.front p, .back p{
+p{
     color: #777777;
 }
 
-.front h5, .back h5{
-    color: #555555;
+h5{
+    color: #E33C34;
 }
 
-.front.metadata, .back.metadata {
-    padding: 10px;
+.metadata {
+    margin: 15px;
 }
 
 /*       Fix bug for IE      */

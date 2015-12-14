@@ -1,8 +1,21 @@
 body {
-	background-color: #D2D1D0;
+	background-color: #F5F5F5;
+	padding-top: 65px; 
 }
 
-div .metadata{
-	padding: 10px;
+.modal-content{
+	background-color: transparent;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: ‘Montserrat’, sans-serif;
+}
+
+.navbar{
+	background-color: white;
+}
