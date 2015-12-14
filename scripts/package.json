@@ -7,14 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tedtalks"
+    "tedtalks","feed"
   ],
   "author": "mshibl",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.4.8",
     "angular-sanitize": "^1.4.8",
-    "angular-ui-bootstrap": "^0.14.3",
-    "colors": "^1.1.2"
+    "angular-ui-bootstrap": "^0.14.3"
+  },
+  "engines": {
+    "node": "5.1.0"
   }
 }

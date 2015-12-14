@@ -17,7 +17,10 @@
                     <h6>{{videoFeed.publishedDate}}</h6>
                     <p>{{videoFeed.content}}</p>
                   </div>
-                  <a ng-click="open(videoFeed.videoUrl)" ng-href="">Play Video</a>
+                  <hr>
+                  <div class="col-md-5 playVideo">
+                    <a ng-click="open(videoFeed.videoUrl)" href=""><img src="http://bit.ly/1RO3bGA" id="playButton"/>Play Video</a>
+                  </div>
                 </div> <!-- end back panel -->
             </div> <!-- end card -->
         </div> <!-- end card-container -->

@@ -1,6 +1,6 @@
 body {
 	background-color: #F5F5F5;
-	padding-top: 65px; 
+	padding-top: 70px; 
 }
 
 .modal-content{
@@ -18,4 +18,20 @@ h6 {
 
 .navbar{
 	background-color: white;
+}
+
+.playVideo{
+	float: none;
+    margin: 0 auto;	
+}
+
+#playButton{
+	width: 3em;
+
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
