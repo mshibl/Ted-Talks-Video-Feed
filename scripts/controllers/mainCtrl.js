@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('tedTalksFeed')
-.controller('mainCtrl', function($scope,feedDataService,$uibModal,$log){
+.controller('mainCtrl', function($scope,feedDataService,$uibModal){
 	// Loading Feeds
 	feedDataService.getFeeds(function(response){
 		$scope.videoFeeds = response
