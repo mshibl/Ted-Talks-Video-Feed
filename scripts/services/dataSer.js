@@ -6,7 +6,7 @@ angular.module('tedTalksFeed')
 	this.getFeeds = function(callback){
 		google.setOnLoadCallback(function(){
 			var feed = new google.feeds.Feed("http://feeds.feedburner.com/tedtalks_video");
-	    feed.setNumEntries(100);
+	    feed.setNumEntries(5);
       feed.load(function(response){
 				var videoFeeds = [];
 				for (var i = 0; i < response.feed.entries.length; i++) {
